@@ -1,0 +1,197 @@
+
+*{
+    text-decoration: none !important;
+list-style-type: none;
+}
+/* -------------header part Start-------------- */
+#header{
+    background: #26292d !important;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+.navbar-brand img{
+    height:60px; 
+}
+nav ul li a{
+	font-size: 12px;
+	color: #babcbc !important;
+    margin-left: 20px; 
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+nav ul li a:hover{
+    color: #b98d36 !important;
+    
+}
+nav ul li a.active{
+    color: #808088 !important;
+}
+.sing-up button{
+    border: none;
+    background: none;
+}
+.sing-up button a{
+    border: 1px solid #b98d36;
+    padding: 12px 20px;
+    color: #babcbc !important;
+    border-radius:25px;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+ }
+  .sing-up button a:hover{
+    color: #b98d36 !important;
+ } 
+ .drop-down ul li a{
+    margin-left: 0px !important;
+ }
+/* -------------header part End-------------- */
+
+
+/* -------------banner part Start-------------- */
+#service_banner .item .banner{
+    position: relative;
+}
+#service_banner .item .banner .banner-contant{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 60px;
+}
+#service_banner .item .banner .banner-contant h1{
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 800;
+}
+#service_banner .item .banner .banner-contant p{
+    color: aliceblue;
+}
+#service_banner .item .banner img{
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    object-fit: cover;
+}
+/* -------------Banner part End-------------- */
+
+
+/* -------------Service Section Start-------------- */
+#service-item-section .service_title h1{
+    color: #282b2e;
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 900;
+}
+#service-item-section .service_title p{
+    color: #282b2e;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: .5;
+}
+#service-item-section .service-item .card img{
+    height: 100px;
+    width: 130px;
+    text-align: center;
+    margin: 0 auto;
+}
+.card{
+    box-shadow: 8px 8px 18px 8px rgba(0,0,0,0.05);
+    border: none;
+}
+#service-item-section .service-item .card h1{
+    font-size: 22px;
+    color: #282b2e;
+    text-align: center;
+    padding: 6px 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    transition: .4s;
+}
+#service-item-section .service-item .card h1:hover{
+  color:#b98d36;
+}
+#service-item-section .service-item .card p{
+    font-size: 16px;
+    color: #b7b8ba;
+    text-align: center;
+    width: 85%;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+}
+/* -------------Service Section End-------------- */
+
+
+/* -------------Footer Part Start-------------- */
+#footer_part{
+    background: #26292d;
+    color: #fff;padding: 50px;
+}
+#footer_part .contant-1 .footer-logo{
+    padding: 30px 0px;
+ 
+}
+#footer_part .contant-1 i{
+    padding: 8px 10px 0px 5px;
+    color: #b98d36;
+}
+#footer_part .contant-1 p{
+    color: #bcbbba;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    weight: 400;
+}
+#footer_part .footer_title{
+    padding: 30px 0px;
+    color: #b98d36;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    width: 800;
+}
+#footer_part .contant-2 p{
+   margin: 5px;
+}
+#footer_part .contant-2 p span{
+    color: #b98d36;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    width: 400;
+}
+#footer_part .contant-3 .menu-item ul li a{
+    color: #fff;
+}
+#footer_part .contant-3 .menu-item ul li{
+    margin-bottom: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    width: 500;
+}
+#footer_part .contant-4 form input{
+    padding:10px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+#footer_part .contant-4 .subscribe_btn{
+   padding: 30px 0px;
+}
+#footer_part .contant-4 .subscribe_btn a{
+    padding: 10px 15px;
+    border: 2px solid #b98d36;
+    width: 600;
+    font-size: 18px;
+    color: #b98d36;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    transition: .4s;
+}
+#footer_part .contant-4 .subscribe_btn a:hover{
+    color: #ffffff;
+   
+}
+/* -------------Footer Part End-------------- */

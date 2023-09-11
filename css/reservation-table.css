@@ -1,0 +1,287 @@
+
+*{
+    text-decoration: none !important;
+    list-style-type: none;
+}
+/* -------------header part Start-------------- */
+#header{
+    background: #26292d !important;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+.navbar-brand img{
+    height:60px; 
+}
+nav ul li a{
+	font-size: 12px;
+	color: #babcbc !important;
+    margin-left: 20px; 
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+nav ul li a:hover{
+    color: #b98d36 !important;
+    
+}
+nav ul li a.active{
+    color: #808088 !important;
+}
+.sing-up button{
+    border: none;
+    background: none;
+}
+.sing-up button a{
+    border: 1px solid #b98d36;
+    padding: 12px 20px;
+    color: #babcbc !important;
+    border-radius:25px;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+ }
+  .sing-up button a:hover{
+    color: #b98d36 !important;
+ } 
+ .drop-down ul li a{
+    margin-left: 0px !important;
+ }
+/* -------------header part End-------------- */
+
+
+/* -------------banner part Start-------------- */
+#service_banner .item .banner{
+    position: relative;
+}
+#service_banner .item .banner .banner-contant{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#service_banner .item .banner .banner-contant h1{
+    color: #fff;
+    font-size: 42px;
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;
+}
+#service_banner .item .banner .banner-contant p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+}
+#service_banner .item .banner img{
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    object-fit: cover;
+}
+/* -------------Banner part End-------------- */
+
+
+/* -------------Rreservation Section Start-------------- */
+#reservation_table .card p{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 10px;
+}
+#reservation_table .card p span{
+    font-family: 'Playfair Display', serif;
+}
+#reservation_table .reservation_title h1{
+    text-align: center;
+    color: #282b2e;
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 900;
+}
+#reservation_table .reservation_title p{
+    text-align: center;
+    color: #272829;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: .6;
+}
+#reservation_table{
+    padding: 70px 0px;
+}
+#reservation_table .card{
+    /* box-shadow: inset 0 2px 6px 0 rgb(222, 221, 221); */
+    box-shadow: 8px 8px 18px 8px rgba(0,0,0,0.05);
+    border: none;
+    border-radius: 0px;
+    background: #282b2e;
+    padding: 50px;
+    
+}
+#reservation_table .card form input{
+        border-radius: 0px;
+        background-color: #fff;
+        height: 45px;
+        padding: 30px 10px;
+}
+#reservation_table .submit_btn{
+    padding: 20px;
+    text-align: center;
+}
+#reservation_table .submit_btn a{
+    padding: 15px 30px;
+    border: 2px solid #b98d36;
+    width: 600;
+    font-size: 18px;
+    color: #b98d36;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    letter-spacing: 5px;
+    transition: .4s;
+}
+#reservation_table .submit_btn a:hover{
+    color: #ffffff;
+   
+}
+/* -------------Rreservation Section End-------------- */
+
+
+/* -------------Our Experienced Chefs Part End-------------- */
+#contact_part{
+    padding: 50px 0px;
+}
+#contact_part h1{
+   font-size: 36px;
+   font-weight: 600;
+   color: #485664;
+   font-family: 'Raleway', sans-serif;
+   padding: 15px;
+}
+#contact_part .location .card h2{
+   font-size: 24px;
+   font-weight: 600;
+   color: #485664;
+   font-family: 'Raleway', sans-serif;
+   padding: 15px;
+}
+#contact_part .location .card .info-item i{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #b98d36;
+    margin-top: -25px;
+}
+#contact_part .location .card .info-item p{
+    /* display: flex; */
+    justify-content: center;
+    margin-left: 35px;
+    font-size: 16px;
+    color: #a1a1a1;
+    padding-bottom: 20px;
+}
+#contact_part .card h4{
+    color: #a1a1a1;
+    margin-left: 60px;
+    color: #485664;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    width: 600;
+}
+#contact_part .card{
+    /* box-shadow: inset 0 2px 6px 0 rgb(222, 221, 221); */
+    box-shadow: 8px 8px 18px 8px rgba(0,0,0,0.05);
+    border: none;
+}
+#contact_part .card form input{
+        border-radius: 0px;
+        background-color: #fff;
+        border: 1px solid #b98d36;
+        height: 45px;
+}
+#contact_part .card .message textarea{
+    outline: none;
+    border-radius: 0px;
+    background-color: #fff;
+    border: 1px solid #b98d36; 
+}
+#contact_part .submit_btn{
+    padding: 20px;
+}
+#contact_part .submit_btn a{
+    padding: 15px 20px;
+    background: #b98d36;
+    color: #fff;
+    text-align: center;
+}
+/* -------------Our Experienced Chefs Part End-------------- */
+
+
+/* -------------Footer Part Start-------------- */
+#footer_part{
+    background: #26292d;
+    color: #fff;padding: 50px;
+}
+#footer_part .contant-1 .footer-logo{
+    padding: 30px 0px;
+ 
+}
+#footer_part .contant-1 i{
+    padding: 8px 10px 0px 5px;
+    color: #b98d36;
+}
+#footer_part .contant-1 p{
+    color: #bcbbba;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    weight: 400;
+}
+#footer_part .footer_title{
+    padding: 30px 0px;
+    color: #b98d36;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    width: 800;
+}
+#footer_part .contant-2 p{
+   margin: 5px;
+}
+#footer_part .contant-2 p span{
+    color: #b98d36;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    width: 400;
+}
+#footer_part .contant-3 .menu-item ul li a{
+    color: #fff;
+}
+#footer_part .contant-3 .menu-item ul li{
+    margin-bottom: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    width: 500;
+}
+#footer_part .contant-4 form input{
+    padding:10px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+#footer_part .contant-4 .subscribe_btn{
+    padding: 30px 0px;
+}
+#footer_part .contant-4 .subscribe_btn a{
+    padding: 10px 15px;
+    border: 2px solid #b98d36;
+    width: 600;
+    font-size: 18px;
+    color: #b98d36;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    transition: .4s;
+}
+#footer_part .contant-4 .subscribe_btn a:hover{
+    color: #ffffff;
+   
+}
+/* -------------Footer Part End-------------- */
